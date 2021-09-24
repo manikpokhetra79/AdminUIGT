@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
+import AdminUi from './components/AdminUi';
 
 class App extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <AdminUi />
+      </div>
+    );
   }
 }
 
